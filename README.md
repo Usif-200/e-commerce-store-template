@@ -17,18 +17,17 @@ A simple online store backend + frontend scaffold for product catalog, cart, che
 
 ## Tech stack
 
-- Backend: Node.js, Express (or your preferred framework)
-- Database: PostgreSQL (or MySQL/SQLite)
+- Backend: Node.js, Express.js
 - Auth: JWT
-- Frontend: React / Vue (optional)
-- Dev tooling: Docker, dotenv, TypeScript (optional)
+- Frontend: React.js
+- Dev tooling: dotenv, TypeScript 
 
 ## Prerequisites
 
 - Git
 - Node.js >= 16
 - npm or yarn
-- PostgreSQL (or Docker)
+
 
 ## Quickstart (local)
 
@@ -86,33 +85,5 @@ JWT_SECRET=change_this_to_a_secure_value
 - npm run seed — seed demo data
 - npm run lint — lint code
 
-## Docker (optional)
 
-1. Build and run
 
-```bash
-docker compose up --build
-```
-
-2. Services: app, db
-
-## Tests
-
-- Unit and integration tests with Jest / Mocha
-
-```bash
-npm run test
-```
-
-## Contributing
-
-- Fork, create feature branch, add tests, open PR.
-- Follow repository linting and commit conventions.
-
-## License
-
-Specify license in LICENSE file (e.g., MIT).
-
-## Contact
-
-Open issues or PRs on the repository for questions and fixes.
