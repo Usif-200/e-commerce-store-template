@@ -1,4 +1,4 @@
-# ecom
+# e-commerce store template
 
 Minimal, production-ready e-commerce reference application.
 
@@ -12,7 +12,7 @@ A simple online store backend + frontend scaffold for product catalog, cart, che
 - Shopping cart and checkout flow
 - User authentication (JWT)
 - Order history and admin order management
-- REST API + optional frontend (React/Vue)
+- REST API + frontend 
 - DB migrations and seed data
 
 ## Tech stack
@@ -34,8 +34,9 @@ A simple online store backend + frontend scaffold for product catalog, cart, che
 1. Clone
 
 ```bash
-git clone <repo-url> ecom
-cd ecom
+git clone <repo-url>
+cd e-commerce-store-template
+
 ```
 
 2. Install
@@ -53,7 +54,7 @@ cp .env.example .env
 # edit .env to set DB connection and JWT_SECRET
 ```
 
-4. Run migrations and seed (example using knex/typeorm/sequelize)
+4. Run migrations and seed 
 
 ```bash
 npm run migrate
@@ -74,16 +75,4 @@ NODE_ENV=development
 DATABASE_URL=postgres://user:pass@localhost:5432/ecom
 JWT_SECRET=change_this_to_a_secure_value
 ```
-
-## Common scripts
-
-- npm run dev — start dev server with hot reload
-- npm run build — build for production
-- npm start — start production server
-- npm run test — run tests
-- npm run migrate — run DB migrations
-- npm run seed — seed demo data
-- npm run lint — lint code
-
-
 
